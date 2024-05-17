@@ -4,17 +4,19 @@
   justify-content: space-between;
   justify-content: center;
   background-color: #e6e6e6;
-  color: #000000;
+  color: rgb(101, 142, 172);
   padding: 20px;
   margin-bottom: 30px;
  border-bottom-right-radius: 10px;
  border-bottom-left-radius: 10px;
  box-shadow: 2px 3px 5px #000000;
+ text-shadow: 2px 2px 3px #000000;
 }
 
 body {
   background-color: rgb(101, 142, 172);
   font-family: Philosopher ;
+  scroll-behavior: smooth;
 }
  
 p {
@@ -27,7 +29,7 @@ margin-top: 50px;
   padding: 0;
   justify-content: center;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .nav-item {
@@ -35,8 +37,9 @@ margin-top: 50px;
 }
 
 .nav-link {
-  color: #000000;
+  color: rgb(101, 142, 172);;
   text-decoration: none;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .nav-link.active {
@@ -77,6 +80,12 @@ margin-bottom: 100px;
 
 }
 
+.profile-pic:hover {
+  transform: scale(1.1);
+  transition: .8s ease;
+  box-shadow: inset 4px 7px 7px 6px rgb(0, 0, 0), 2px 1px 7px 2px rgb(22, 129, 171);
+}
+
 .project-card {
   align-content: center;
   background-color: #e6e6e6;
@@ -84,6 +93,7 @@ margin-bottom: 100px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 2px 3px 5px #000000;
+  
 }
 
 .project-card h2 {
@@ -100,7 +110,10 @@ margin-bottom: 100px;
 }
 
 .img-background:hover {
-  filter: hue-rotate(100deg) brightness(103%);
+  filter: hue-rotate(100deg) brightness(100%);
+  transform: scale(1.1);
+  transition: .8s ease;
+  box-shadow: inset 4px 7px 7px 3px rgb(246, 255, 0), 2px 2px 8px rgb(96, 96, 96);
 }
 
 .project-link {
