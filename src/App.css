@@ -1,0 +1,300 @@
+.header {
+  /* display: flex; */
+  text-align: center;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: #e6e6e6;
+  color: #000000;
+  padding: 20px;
+  margin-bottom: 30px;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ box-shadow: 2px 3px 5px #000000;
+}
+
+body {
+  background-color: rgb(101, 142, 172);
+  font-family: Philosopher ;
+}
+ 
+p {
+margin-top: 50px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: #71bcc6;
+  box-shadow: 2px 3px 5px #000000;
+}
+
+.port-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  
+}
+
+.pro-container {
+text-align: center;
+max-width: 700px;
+margin: 0 auto;
+padding: 20px;
+background-color: #e6e6e6;
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+box-shadow: 2px 3px 5px #000000;
+margin-bottom: 100px;
+}
+
+.profile-pic {
+  width: 300px; 
+  border-radius: 10%; 
+  padding-top: -400px;
+  box-shadow: 2px 3px 5px #000000;
+
+}
+
+.project-card {
+  align-content: center;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 3px 5px #000000;
+}
+
+.project-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.img-background {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 3px 5px #000000;
+  max-height: 10rem;
+}
+
+.img-background:hover {
+  filter: hue-rotate(100deg) brightness(103%);
+}
+
+.project-link {
+  color: #fff;
+  background-color: #a2a2a2;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.project-link:hover {
+  background-color: #71bcc6;
+}
+
+a {
+  display: inline-block;
+  padding: 5px 10px;
+  /* margin-right: 10px; */
+  background-color: #e6e6e6;
+  color: #0e0101;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #71bcc6(0, 0%, 100%);
+  box-shadow: 2px 3px 5px #000000;
+}
+
+.con-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px #000000;
+}
+
+.res-container {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px #000000;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  background-color: #a2a2a2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #a2a2a2;
+  box-shadow: 2px 3px 5px #000000;
+}
+
+.error-text {
+  color: #ff0000;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.resume-link {
+  color: #fff;
+  background-color: #a2a2a2;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.resume-link:hover {
+  background-color: #71bcc6;
+  box-shadow: 2px 3px 5px #000000;
+}
+
+.proficiencies-list {
+background-color: #71bcc6;
+border-radius: 20px;
+box-shadow: 2px 3px 5px #000000;
+padding: 10px;
+margin-top: 20px;
+}
+
+.container h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #666;
+  
+}
+
+.footer {
+  padding: 1px;
+  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #e6e6e6;
+}
+
+
+.github-link,
+.linkedIn-link {
+  color: #e6e6e6; 
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.github-link:hover,
+.linkedIn-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .profile-pic {
+    width: 150px;
+    margin-top: 0;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+
+  .nav {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 100px;
+  }
+
+  .project-card {
+    padding: 5px;
+  }
+}
