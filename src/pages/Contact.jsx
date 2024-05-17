@@ -3,14 +3,14 @@ import { validateEmail } from "../utils/helpers";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-// component for the contact page
+// contact page
 export default function Contact() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  {/* function to handle the input change */}
+  {/* function for input change */}
   const handleInputChange = (e) => {
     const { name, value } = e.target;
 
@@ -23,11 +23,11 @@ export default function Contact() {
     }
   };
 
-  // function to handle when the form is submitted
+  // Form submit function
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    // validate the email and check if name and message were entered in the form
+    // email and input validation 
     if (!validateEmail(email)) {
       setErrorMessage('Please enter a valid email address.');
       return;
@@ -48,7 +48,7 @@ export default function Contact() {
     setErrorMessage('');
   };
 
-  // setting up the jsx for the form and adding contact information
+  //  jsx form and contact information
   return (
     <div className="con-container text-center">
       <form className="contact-form" onSubmit={handleFormSubmit}>

@@ -3,7 +3,7 @@ import Header from './components/Header';
 import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
 
-// jsx to get the components of the app
+// wrap components in app function
 function App() {
   return (
     <div>

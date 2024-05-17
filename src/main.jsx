@@ -11,7 +11,7 @@ import Portfolio from './pages/Portfolio.jsx';
 import Contact from './pages/Contact.jsx';
 import './index.css';
 
-// setting up the home page and different paths in the router
+// home page set up and router paths 
 const router = createBrowserRouter([
   {
     path: '/',
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-// starting the router at the about me page
+// starting at about me page
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )

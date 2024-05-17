@@ -9,7 +9,7 @@ import yourscene from "../images/yourscene.png"
 
 
 export default function Portfolio() {
-    //create an array of the projects to be passed down later to the project component as props
+    //an array of projects passed down to project component as props
     const projectList = [
         {
             id: 1,

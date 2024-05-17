@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 
-// nav component
+// nav bar
 export default function Nav() {
     const currentPage = useLocation().pathname;
 

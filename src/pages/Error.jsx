@@ -1,6 +1,6 @@
 import { useRouteError } from 'react-router-dom';
 
-// component for if the user goes to the wrong page
+// Error status
 export default function ErrorPage() {
   const error = useRouteError();
   console.error(error);

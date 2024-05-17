@@ -1,7 +1,7 @@
 import Nav from './Nav';
 
 
-// header component that imports the nav
+// header and nav import
 export default function Header() {
     return (
         <div className="header">

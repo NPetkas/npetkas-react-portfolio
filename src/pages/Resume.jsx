@@ -4,7 +4,7 @@ import { faJs, faReact, faHtml5, faCss3Alt, faNodeJs  } from '@fortawesome/free-
 
 
 const Resume = () => {
-  // creating a button for a resume to be downloaded and adding list of languages I am proficient in
+  // button for resume download and proficiencies
     return (
       <div className="res-container">
         <h2>Resume</h2>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
-// project component for each of the projects on the portfolio page
+// projects for portfolio page
 const Project = (props) => {
     return (
         <div className='port-container'>

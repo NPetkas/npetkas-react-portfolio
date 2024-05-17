@@ -1,6 +1,6 @@
 import Nico from '../images/Nico.jpg'
 
-// simple about me page with a open introduction
+// about me and intro introduction
 export default function About() {
     return (
       <div className="pro-container">
